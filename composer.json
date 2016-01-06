@@ -1,0 +1,26 @@
+{
+    "name": "mangati/exporter",
+    "type": "library",
+    "description": "Exporter tool",
+    "keywords": ["serializer", "interface", "common"],
+    "homepage": "https://github.com/mangati/php-serializer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogério Alencar Lino Filho",
+            "email": "rogeriolino@gmail.com",
+            "homepage": "http://rogeriolino.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "mangati/io": "v1.0"
+    }
+}
